@@ -1,6 +1,6 @@
 # How to Add the Symbol Palette to an Angular Diagram Component
 
-A quick start Angular project that shows how to add and customize the symbol palette using the Syncfusion Angular Diagram component. This project also includes a code snippet to restrict the symbol palette's panel and customize its symbol size and symbol preview size.
+A quick start Angular project that shows how to add and customize the symbol palette using the Syncfusion&reg; Angular Diagram component. This project also includes a code snippet to restrict the symbol palette's panel and customize its symbol size and symbol preview size.
 
 Examples: https://ej2.syncfusion.com/angular/demos/#/material/diagram/symbol-palette 
 
