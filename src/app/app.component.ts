@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
-import { ConnectorModel, NodeModel, PaletteModel, SymbolPreviewModel } from '@syncfusion/ej2-angular-diagrams';
+import { Component,ViewEncapsulation } from '@angular/core';
+import { ConnectorModel, DiagramModule,SymbolPaletteModule,NodeModel, PaletteModel, SymbolPreviewModel } from '@syncfusion/ej2-angular-diagrams';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  imports: [DiagramModule,SymbolPaletteModule],
+  standalone: true,
 })
 export class AppComponent {
   title = 'angular-diagram';
